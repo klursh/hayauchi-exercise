@@ -33,7 +33,7 @@ var getNextStartTime = function(interval, now) {
   return getStartTime(interval, now) + interval;
 };
 var getWord = function(interval, now) {
-  var index = getStartTime(interval, now) * 100000007 % dictionary.length;
+  var index = getStartTime(interval, now) / interval * 100000007 % dictionary.length;
   return dictionary[index];
 };
 
