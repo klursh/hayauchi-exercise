@@ -1,4 +1,3 @@
 # hayauchi-exercise
 
-https://klursh.github.io/hayauchi-exercise/
-
+https://nohtaray.github.io/hayauchi-exercise/
